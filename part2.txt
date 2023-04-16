@@ -1,4 +1,3 @@
-Fill in the passphrases here.
 Question 1 Passcode: greenEggsAndHam
 Question 2 Passcode: iHateCplusplus
 Question 3 Passcode: HTMLRocks
