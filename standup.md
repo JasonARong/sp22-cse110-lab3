@@ -12,6 +12,7 @@
 - Styled the Header and Main section of the index.html, finished multiple lab tasks
   - Comment 
   - Color   
+  - Background
   - Unit
   - Text
   - Display
