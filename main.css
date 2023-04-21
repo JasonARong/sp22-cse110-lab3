@@ -1,4 +1,167 @@
  /* global changes */
 * {
      scroll-behavior: smooth;
+     font-family: sans-serif;
+     /* border: 1px red solid; */
+}
+
+body{
+     background-color: #222;
+     color: white;
+     margin: 0;
+     
+}
+hr{
+     border: 0.5px solid rgb(168, 168, 168);
+}
+a{
+     transition: 0.1s ease-in-out;
+}
+a:hover{
+     color:#FFCD00;
+}
+
+#topBtn{
+     box-sizing: border-box;
+     background-color: hsl(0, 0%, 20%);;
+     position: fixed;
+     text-align: center;
+     border-radius: 4px;
+     bottom: 20px;
+     right: 20px;
+}
+#topBtn a{
+     display: block;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     padding-left: 15px;
+     padding-right: 15px;
+     font-weight: 700;
+     text-decoration: none;
+     color: #FFCD00;
+}
+#topBtn a:active{
+     color: white 
+}
+
+/* Header */
+header{
+     line-height: 1.5;
+}
+h1{
+     padding: 21px 21px 21px 21px;
+     background-color: hsl(0, 0%, 20%);
+     margin-top: 0;
+}
+h1 span{
+     font-size: 40px;
+     color: #FFCD00;
+}
+header > p{
+     margin-bottom: 2px;
+     margin-top: 2px;
+     margin-left: 21px
+}
+h1 ~ p{
+     color: rgb(199, 199, 199);
+     font-size: 10pt;
+}
+nav a{
+     color: #2f81f7;
+     text-decoration: none;
+}
+nav a:active{
+     color: #ff8c00;
+     text-decoration: underline;
+}
+
+h4{
+     margin-left: 21px;
+     margin-bottom: 5px;
+}
+
+nav > ul{
+     list-style-type: none;
+     display: flex;
+     padding-left: 21px;
+     margin-top: 5px;
+}
+nav > li{
+     position:relative;
+}
+a[href="#main"]{
+     padding: 10px;
+}
+
+#innerList{
+     background-color: #2e2e2e;
+     border: 0.5px #545454 solid;
+     border-radius: 1rem;
+     display: none; 
+     position: absolute;
+     list-style-type: none;
+     padding: 10px;
+     
+}
+li:hover #innerList{
+     display: block;
+}
+
+/* Main */
+main{
+     max-width: 900px;
+     margin-right: auto;
+     margin-left: auto;
+     line-height: 1.6;
+     border-width: 1px;
+     border-color: #545454;
+     border-style: solid;
+     padding: 10px;
+     border-radius: 1rem;
+}
+main section{
+     border-bottom: 1px #555 solid;
+}
+
+#attendence ul{
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+     grid-gap: 1rem;
+     justify-items: center;
+}
+
+#activities ol{
+     display: flex;
+     flex-wrap: wrap;
+     align-items: flex-start;
+     flex-direction: row;
+}
+#activities li{
+     padding: 0px 40px 0px 5px;
+}
+
+#updates h4{
+     text-align: center;
+     margin-left: 0;
+}
+h4 + img{
+     height: 40vh;
+     display: block;
+     width: auto;
+     min-height: 400px;
+     margin-right: auto;
+     margin-left: auto;
+     margin-bottom: 0.8cm;
+}
+
+video{
+     width: 55vw;
+     display: block;
+     min-width: 278px;
+     margin-right: auto;
+     margin-left: auto;
+}
+
+section.adjournment{
+     border-bottom: 0px;
 }
